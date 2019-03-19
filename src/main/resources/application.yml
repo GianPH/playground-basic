@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: playground-basic
+  profiles:
+    active: local
+server:
+  port: ${PORT:6000}
